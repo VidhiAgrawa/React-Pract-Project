@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.card{
+  height: 10em;
+  display: flex;
+  background-color: burlywood;
+  flex-basis: 20%;
+  margin: 5%;
+  
+}
+.App{
+  width: 1366px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-c: center; */
+  margin: auto;
+}
