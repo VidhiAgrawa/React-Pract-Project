@@ -13,8 +13,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 9em;
-  width: 12em;
+  flex-direction: column;
+  height: 12em;
+  width: 30em;
   margin: 1em;
   border: solid rgb(164, 164, 164) 1px;
+}
+.butn{
+  background-color: bisque;
+  height: 5em;
+  width: 10em;
 }

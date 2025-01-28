@@ -4,9 +4,8 @@ function Heading(props) {
   return (
     <div>
       <div className="kd">
-        <h4>{props.name} <br></br> {props.name2}</h4>
-        <h3><br></br>{props.user}</h3>
-        
+        <h4>{props.name}</h4><br></br>
+        <h3>{props.name2}</h3>
       </div>
     </div>
   )
