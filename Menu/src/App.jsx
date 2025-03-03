@@ -1,15 +1,26 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  let[display, setDisplay] = useState(false)
 
   return (
-    <div>
-      
-    </div>
+    <>
+
+      <button onClick= {() => setDisplay( !display )} >&#9776;</button>
+      <div className='menuDiv'>
+        <div className={ (display) ? "divBox" : "hide" }>
+          <p>Home</p>
+          <p>Profile</p>
+          <p>About us</p>
+          <p>Sign in </p>
+          <p>Log in</p>
+          <p>Blahh blahh!</p>
+        </div>
+        
+      </div>
+    </>
   )
 }
 

@@ -5,11 +5,6 @@ function Comp() {
 
     let[hideBtn, setHideBtn] = useState(false)
 
-    // useEffect( () => {
-    //     const interval = setTimeout( () => {
-    //         sethide
-    //     }, 1000 )
-    // } )
 
   return (
     <>
