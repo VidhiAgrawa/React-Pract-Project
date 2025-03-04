@@ -4,9 +4,10 @@
 }
 .divBox {
   height: 40em;
-  width: 20em;
-  background-color: pink;
+  width: 15em;
+  background-color: #ffaebc;
   display: flex;
+  justify-content: space-evenly;
   flex-direction: column;
   animation: animate 2s ease-in-out 1;
   
@@ -21,10 +22,22 @@
 }
 .hide{
   display: none;
-
+  
 }
 p {
-  margin: 1em;
+  margin-left: 1.5em;
+  height: 3em;
+  width: 11.5em;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+p:hover {
+  background-color: rgb(220 127 143);
+  border-radius: 6px;
+  border: 1px solid rgb(212 86 107);
+  transition-property: background-color;
+  transition-duration: 1s;
 }
 button{
   height: 2em;
@@ -32,4 +45,17 @@ button{
   margin: 1em;
   position: absolute;
   right: 0;
+}
+.click{
+  position: fixed;
+  top: 0;         
+  left: 0;        
+  right: 0;       
+  text-align: center; 
+  padding: 10px;
+
+}
+.icon {
+  font-size: 1.1em;
+  margin-right: 0.5em;
 }
