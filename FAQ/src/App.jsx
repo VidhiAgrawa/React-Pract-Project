@@ -4,7 +4,7 @@ import { useState } from 'react'
 console.log(Api)
 function App() {
 
-  let [ans, setAnswer] = useState( Api[0].id )
+  let [ans, setAnswer] = useState('')
 
   return (
     <>
