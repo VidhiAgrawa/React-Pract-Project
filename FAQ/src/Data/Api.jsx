@@ -25,5 +25,10 @@ const Api =
       "question": "What challenges arise when implementing microservices?",
       "answer": "Challenges include managing service communication, data consistency, operational complexity, and ensuring security across services."
     }
+    {
+      "id": 6,
+      "question": "What challenges arise when implementing microservices?",
+      "answer": "Challenges include managing service communication, data consistency, operational complexity, and ensuring security across services."
+    }
   ];
 export default Api;
